@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: dedf5e65f597048ebae9040408808f46
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - collisionSound: {fileID: 8300000, guid: 2753cdee222db467386a77b4542d5828, type: 3}
+  - yourParticleSystem: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
