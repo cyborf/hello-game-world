@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 594065109361011522}
   - component: {fileID: 8026658876845764787}
   - component: {fileID: 6033346123439526363}
+  - component: {fileID: 2936000120002110105}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -133,3 +134,42 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2936000120002110105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864623834797884698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c7f17cef4fc864f9c3af0d7b9b881b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  mySpriteRenderer: {fileID: 0}
+  OriginalSprite: {fileID: 0}
+  AccessibleSprite: {fileID: 0}
+  rawImage: {fileID: 0}
+  OrigninalTexture: {fileID: 0}
+  AccessibleTexture: {fileID: 0}
+  OriginalSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  AccessibleSpriteColor: {r: 1, g: 1, b: 1, a: 1}
+  myText: {fileID: 0}
+  myTMP: {fileID: 0}
+  myTMPuGui: {fileID: 0}
+  OriginalFont: {fileID: 0}
+  AccessibleFont: {fileID: 0}
+  OriginalTextSize: 0
+  AccessibleTextSize: 0
+  OriginalTextColor: {r: 0, g: 0, b: 0, a: 0}
+  AccessibleTextColor: {r: 1, g: 1, b: 1, a: 1}
+  OriginalTMPFont: {fileID: 0}
+  AccessibleTMPFont: {fileID: 0}
+  OriginalTMPSize: 0
+  AccessibleTMPSize: 0
+  OriginalTMP_ColorGradient: 0
+  myCamera: {fileID: 0}
+  OriginalBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  AccessibleBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  ObjectsCaptured: 0

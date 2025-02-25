@@ -7,7 +7,10 @@ public class SFX : MonoBehaviour
     public AudioSource playSound;
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other){
-        Debug.Log ("SFX triggered");
-        playSound.Play();
+        if (other.tag == "Player") {
+            Debug.Log ("SFX triggered");
+            playSound.Play();
+        }
+        
     }
 }
